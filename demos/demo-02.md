@@ -2,7 +2,7 @@
 
 1.  Terminal only (Read only) [Default]
 
-    `docker --name w1 run -p 8000:80 nginx:alpine`
+    `docker run --name w1 -p 8000:80 nginx:alpine`
 
     > To Test, visit browser http://localhost:8000
 
