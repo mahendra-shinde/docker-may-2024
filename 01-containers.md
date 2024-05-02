@@ -6,6 +6,14 @@
 
 - The command to launch a container is SAME, irrespective of programming language.
 
+- Benefits
+  
+  * Containers are relatively lightweight compared to Virtual machines
+  * Containers use lesser amount of resources
+  * Faster Startup / Shutdown times
+  * Faster rollout and rollback
+
+
     ```
     docker run --name c1 -p 8080:80 -d mahendrshinde/myweb:1
     ```
