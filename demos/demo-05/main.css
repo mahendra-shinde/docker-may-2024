@@ -1,0 +1,15 @@
+body, p, h1, h3 {
+    margin: 0px;
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+ol {
+    border: 1px dotted red;
+    padding: 5px;
+}
+p {
+    padding: 5px;
+}
