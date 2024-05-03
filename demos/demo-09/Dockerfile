@@ -1,9 +1,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:6.0-jammy as BASE
 
 WORKDIR /app
-
 COPY . .
-
 RUN ["dotnet", "restore"]
 RUN ["dotnet", "publish", "-o", "dist"]
 
