@@ -19,6 +19,15 @@ services:
     - db_net
     ports:
       - 3306:3306
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 1G
+          pids: 256
+        reservations:
+          cpus: '1.0'
+          memory: 512M
  
 
   client:
